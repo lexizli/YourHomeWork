@@ -20,6 +20,7 @@ What is a Git?
 * [git checkout](#checkout)
 * [Merging](#merge)
 * [Conflictes](#conflict)
+* [Working with remote repo](#remote)
 
 <a id="config"></a>
 
@@ -176,3 +177,33 @@ Sometimes merging has problems.
 ![add some humor about merging](https://devhumor.com/content/uploads/images/July2020/merge.jpg)
 
 [top](#top)
+
+<a id="remote"></a>
+
+---
+## Workink with remote repository on github
+
+There are some ways to create remote repo (repository).
+
+1. Creating new repo on github
+2. Creating fork of anyone repo on github 
+
+After it's possible to clone this repo on local computer.
+
+With personal repo or fork it's possible to edit as local as remote files with 
+```
+git push
+```
+
+for pushing or sending local changes to remote repo, or
+
+```
+git pull
+```
+
+for recieveng remote changes.
+
+It's practice to create a new branch for chages fork if you want to propose your addings to original repo.
+
+[top](#top)
+
